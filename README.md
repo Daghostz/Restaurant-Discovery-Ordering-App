@@ -30,6 +30,3 @@ Users often struggle to decide where to eat while balancing ratings, price range
 * [Acceptance Criteria](#3-acceptance-criteria)
 * [Database Design](#4-database-design)
 
-y`
-* **Order:** `order_id` (PK), `user_id` (FK), `restaurant_id` (FK), `total_price`, `total_calories`, `status`, `created_at`
-* **Order_Item:** `order_item_id` (PK), `order_id` (FK), `item_id` (FK), `quantity`
