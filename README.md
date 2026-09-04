@@ -1,32 +1,35 @@
-# NutriDine: Restaurant Discovery & Ordering App
+# Restaurant Discovery & Ordering App
 
-A mobile-responsive web application designed to help users discover nearby restaurants, filter choices by rating and price, check menu item calorie counts, and place food orders seamlessly[cite: 2].
+## Project Overview
 
----
+Restaurant Discovery & Ordering App is a mobile-responsive platform designed to help users discover nearby restaurants, filter choices by rating and price, view calorie counts on menus, and seamlessly place food orders.
 
-## Features (MVP)
-* **Restaurant Discovery:** View restaurants located around your current location using geolocation[cite: 2].
-* **Rating & Price Filtering:** Sort and filter restaurants based on customer ratings and price tiers ($, $$, $$$)[cite: 2].
-* **Calorie-Aware Menus:** Browse detailed restaurant menus with transparent calorie counts for every item[cite: 2].
-* **Food Ordering & Checkout:** Add items to your cart, track total calories and price, and complete your order[cite: 2].
+## Target Users
 
----
+* **Health-conscious consumers** looking to track nutritional intake.
+* **Busy professionals** seeking quick and convenient local dining options.
+* **Food lovers** exploring new restaurants based on ratings and price tiers.
 
-## Tech Stack
-* **Frontend:** HTML5, CSS3, JavaScript (or modern framework like React / Flutter)[cite: 2]
-* **Backend / Database:** Node.js, Express, PostgreSQL / MySQL (based on the ER diagram specifications)[cite: 2]
-* **Version Control:** Git & GitHub[cite: 2]
+## Problem
 
----
+Users often struggle to decide where to eat while balancing ratings, price ranges, calorie intake, and proximity. This can make restaurant discovery and food ordering stressful and time-consuming.
 
-## Database Architecture
-The application database relies on the following core entities:
-* **User:** Stores user profile details and coordinates[cite: 2].
-* **Restaurant:** Stores restaurant info, ratings, price tiers, and location coordinates[cite: 2].
-* **Menu_Item:** Links items to restaurants with pricing, category, and calorie counts[cite: 2].
-* **Order & Order_Item:** Tracks user checkout history, quantities, total prices, and total calories[cite: 2].
+## Main Features
+
+* **Restaurant Discovery:** View restaurants located around your current location using geolocation.
+* **Rating & Price Filtering:** Sort and filter restaurants based on customer ratings and price tiers ($, $$, $$$).
+* **Calorie-Aware Menus:** Browse detailed restaurant menus with transparent calorie counts for every item.
+* **Food Ordering & Checkout:** Add items to your cart, track total calories and price, and complete your order.
 
 ---
 
 ## Project Documentation
-Detailed documentation including the complete Project Charter, Requirements Specification, Acceptance Criteria, and Database Design can be found inside the `docs/` folder (`docs/PROJECT_CHARTER.md`)[cite: 2].
+
+* [Project Charter](#1-project-charter)
+* [Requirements Specification](#2-requirements-specification)
+* [Acceptance Criteria](#3-acceptance-criteria)
+* [Database Design](#4-database-design)
+
+y`
+* **Order:** `order_id` (PK), `user_id` (FK), `restaurant_id` (FK), `total_price`, `total_calories`, `status`, `created_at`
+* **Order_Item:** `order_item_id` (PK), `order_id` (FK), `item_id` (FK), `quantity`
