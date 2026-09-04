@@ -2,7 +2,7 @@
 
 ## Project Information
 * **Project Name:** Restaurant Discovery & Ordering App
-* **Group Name:** NutriDine Team
+* **Version:** v1.0.0
 * **Target Stage:** MVP (Minimum Viable Product) Lab 2-3
 
 ## Project Overview
