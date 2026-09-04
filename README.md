@@ -26,7 +26,7 @@ Users often struggle to decide where to eat while balancing ratings, price range
 ## Project Documentation
 
 
-* [Project Charter](Project_Documentation/PROJECT_CHARTER.md)
-* [Requirements Specification](Project_Documentation/REQUIREMENTS_SPECIFICATION.md)
-* [Acceptance Criteria](Project_Documentation/ACCEPTANCE_CRITERIA.md)
-* [Database Design](Project_Documentation/DATABASE_DESIGN.md)
+* [Project Charter](PROJECT_CHARTER.md)
+* [Requirements Specification](REQUIREMENTS_SPECIFICATION.md)
+* [Acceptance Criteria](ACCEPTANCE_CRITERIA.md)
+* [Database Design](DATABASE_DESIGN.md)
