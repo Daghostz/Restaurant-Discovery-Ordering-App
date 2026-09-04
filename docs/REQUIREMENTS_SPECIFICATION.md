@@ -428,5 +428,3 @@ The Restaurant Discovery & Ordering App is designed to streamline the everyday d
 - **Technology Upgrades:** Regular technology stack upgrades for security and performance
 
 ---
-
-*This requirements specification is a living document and will be updated as the project evolves through development phases. All team members are expected to refer to this document for clarity on system functionality and scope.*
